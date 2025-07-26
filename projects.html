@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - CodeZenos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>CodeZenos</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Our <span class="gradient-text">Projects</span></h1>
+            <p class="page-subtitle">Showcasing our latest work across web development, mobile applications, and innovative solutions that drive digital transformation</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i>
+                    All Projects
+                </button>
+                <button class="filter-btn" data-filter="web">
+                    <i class="fas fa-globe"></i>
+                    Web Development
+                </button>
+                <button class="filter-btn" data-filter="mobile">
+                    <i class="fas fa-mobile-alt"></i>
+                    Mobile Apps
+                </button>
+                <button class="filter-btn" data-filter="other">
+                    <i class="fas fa-cogs"></i>
+                    Other Solutions
+                </button>
+            </div>
+            
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Web Development Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Web Development</div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A comprehensive online marketplace built with React and Node.js, featuring advanced payment integration, real-time inventory management, customer reviews, and a powerful admin dashboard with analytics.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Payment Gateway Integration</span>
+                            <span><i class="fas fa-check"></i> Real-time Analytics Dashboard</span>
+                            <span><i class="fas fa-check"></i> Multi-vendor Support</span>
+                            <span><i class="fas fa-check"></i> Mobile Responsive Design</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Web Development</div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization platform with interactive charts, comprehensive reporting capabilities, and business intelligence features for data-driven decision making.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Interactive Data Visualization</span>
+                            <span><i class="fas fa-check"></i> Real-time Updates</span>
+                            <span><i class="fas fa-check"></i> Custom Report Generation</span>
+                            <span><i class="fas fa-check"></i> API Integration</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                            <span>WebSocket</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Web Development</div>
+                        <h3>Learning Management System</h3>
+                        <p>Comprehensive educational platform with course management, video streaming, progress tracking, assignments, and certification system for online learning.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> HD Video Streaming</span>
+                            <span><i class="fas fa-check"></i> Progress Tracking</span>
+                            <span><i class="fas fa-check"></i> Interactive Assignments</span>
+                            <span><i class="fas fa-check"></i> Digital Certification</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Express.js</span>
+                            <span>PostgreSQL</span>
+                            <span>AWS S3</span>
+                            <span>WebRTC</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Applications -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Download from App Store">
+                                <i class="fab fa-app-store"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Download from Google Play">
+                                <i class="fab fa-google-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Mobile Application</div>
+                        <h3>Task Management App</h3>
+                        <p>A comprehensive productivity app with real-time collaboration, cloud synchronization, project management features, time tracking, and team communication tools.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Real-time Team Collaboration</span>
+                            <span><i class="fas fa-check"></i> Cloud Synchronization</span>
+                            <span><i class="fas fa-check"></i> Offline Mode Support</span>
+                            <span><i class="fas fa-check"></i> Time Tracking & Analytics</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>Push Notifications</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Download from App Store">
+                                <i class="fab fa-app-store"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Download from Google Play">
+                                <i class="fab fa-google-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Mobile Application</div>
+                        <h3>Fitness Tracking App</h3>
+                        <p>Comprehensive fitness app with workout tracking, nutrition monitoring, social features, personal trainer integration, and health data synchronization.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Workout Planning & Tracking</span>
+                            <span><i class="fas fa-check"></i> Nutrition Monitoring</span>
+                            <span><i class="fas fa-check"></i> Social Fitness Community</span>
+                            <span><i class="fas fa-check"></i> Wearable Device Integration</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>SQLite</span>
+                            <span>Health APIs</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Download from App Store">
+                                <i class="fab fa-app-store"></i>
+                            </a>
+                            <a href="#" class="project-link" title="Download from Google Play">
+                                <i class="fab fa-google-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Mobile Application</div>
+                        <h3>Food Delivery App</h3>
+                        <p>Complete food delivery solution with restaurant management, real-time tracking, payment integration, ratings system, and delivery optimization algorithms.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Real-time Order Tracking</span>
+                            <span><i class="fas fa-check"></i> Multiple Payment Options</span>
+                            <span><i class="fas fa-check"></i> Restaurant Management</span>
+                            <span><i class="fas fa-check"></i> Delivery Route Optimization</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Google Maps API</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Solutions -->
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">AI Solution</div>
+                        <h3>AI Chatbot Platform</h3>
+                        <p>Intelligent customer service bot with natural language processing, machine learning capabilities, sentiment analysis, and multi-language support for enterprise communication.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Natural Language Processing</span>
+                            <span><i class="fas fa-check"></i> Multi-language Support</span>
+                            <span><i class="fas fa-check"></i> Sentiment Analysis</span>
+                            <span><i class="fas fa-check"></i> Learning Algorithms</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>FastAPI</span>
+                            <span>NLP</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Blockchain Solution</div>
+                        <h3>Smart Contract Platform</h3>
+                        <p>Decentralized application for secure transactions and automated contract execution on blockchain with wallet integration and cryptocurrency support.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Smart Contract Automation</span>
+                            <span><i class="fas fa-check"></i> Secure Transactions</span>
+                            <span><i class="fas fa-check"></i> Wallet Integration</span>
+                            <span><i class="fas fa-check"></i> Multi-currency Support</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Solidity</span>
+                            <span>Web3.js</span>
+                            <span>Ethereum</span>
+                            <span>IPFS</span>
+                            <span>MetaMask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="View Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link" title="View Source Code">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">IoT Solution</div>
+                        <h3>Smart Home System</h3>
+                        <p>Integrated IoT platform for home automation with mobile control, energy monitoring, security features, and voice command integration.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Complete Home Automation</span>
+                            <span><i class="fas fa-check"></i> Energy Monitoring</span>
+                            <span><i class="fas fa-check"></i> Mobile & Voice Control</span>
+                            <span><i class="fas fa-check"></i> Security Integration</span>
+                        </div>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>Raspberry Pi</span>
+                            <span>MQTT</span>
+                            <span>IoT Cloud</span>
+                            <span>Alexa Skills</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-more-section">
+                <button class="btn btn-secondary" id="loadMoreBtn">
+                    <i class="fas fa-plus"></i>
+                    Load More Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Let's discuss how we can bring your ideas to life with our expertise, innovation, and commitment to excellence. Get a free consultation today!</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Get Started Today
+                    </a>
+                    <a href="about.html" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More About Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>CodeZenos</h3>
+                    <p>Transforming ideas into powerful digital solutions.<br>Building the future, one line of code at a time.</p>
+                    <div class="social-links">
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="projects.html">Our Work</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="projects.html">Web Development</a></li>
+                            <li><a href="projects.html">Mobile Apps</a></li>
+                            <li><a href="projects.html">AI Solutions</a></li>
+                            <li><a href="projects.html">Cloud Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="contact.html">Support</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CodeZenos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
